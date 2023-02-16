@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Julee', cursive;
+}
+
+nav {
+    background-color: #ac4b00;
+    height: 60px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 19px 14px;
+}
+
+a:hover {
+    background-color: #c85700;
+    color: rgb(216, 216, 216);
+}
+
+img {
+    height: 30rem;
+    width: 30rem;
+}
+
+.about {
+    display: flex;
+
+}
+
+.mainA {
+    margin: 2rem 3rem;
+    padding: 2rem 3rem;
+}
+
+
+.mainA p {
+    margin: 1rem 0rem;
+    justify-content: center;
+}
+
+.made {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social a {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    color: #ac4b00;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .about {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mainA {
+        margin: 1rem;
+        padding: 2rem;
+    }
+    
+    img {
+        height: 20rem;
+        width: 20rem;
+    }
+}
