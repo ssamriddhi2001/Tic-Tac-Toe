@@ -73,6 +73,11 @@ img {
     color: #ac4b00;
     font-size: 1.5rem;
 }
+.social a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #ce5a01;
+
+}
 
 @media screen and (max-width: 1050px) {
     .about {
